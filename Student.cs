@@ -8,8 +8,8 @@ namespace DinamicProject
 {
     class Student
     {
-        string Surname { get; set; }
-        float AverageScore { get; set; }
+        public string Surname { get; set; }
+        public float AverageScore { get; set; }
 
         public Student(string surname, float averageScore)
         {
